@@ -9,15 +9,13 @@ import { Article } from "./article";
 export const revalidate = 60;
 export default async function ProjectsPage() {
 
-  const featured = allProducts.find((project) => project.slug === "about-us")!;
-  const top2 = allProducts.find((project) => project.slug === "blumemail")!;
+  const featured = allProducts.find((project) => project.slug === "blumemail")!;
   // const top3 = allProducts.find((project) => project.slug === "highstorm")!;
   const sorted = allProducts
     .filter((p) => p.published)
     .filter(
       (product) =>
-        product.slug !== featured.slug &&
-        product.slug !== top2.slug
+        product.slug !== featured.slug
         // project.slug !== top3.slug,
     )
     .sort(
@@ -70,15 +68,6 @@ export default async function ProjectsPage() {
               </article>
             </Link>
           </Card>
-
-          <div className="flex flex-col w-full gap-8 mx-auto border-t border-gray-900/10 lg:mx-0 lg:border-t-0 ">
-            {[top2].map((project) => (
-              <Card key={project.slug}>
-                <Article product={project} />
-              </Card>
-            ))}
-          </div>
-
         </div>
         <div className="hidden w-full h-px md:block bg-zinc-800" />
 

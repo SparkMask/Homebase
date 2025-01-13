@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     title: "SparkMask",
     description:
       "SparkMask the parent company of Blumemail and is looking towards expanding through more markets. Privacy is a priority to us.",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+    url: "https://sparkmask.com",
+    siteName: "sparkmask.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://sparkmask.com/og.png",
         width: 1920,
         height: 1080,
       },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "SparkMask",
     card: "summary_large_image",
   },
   icons: {
