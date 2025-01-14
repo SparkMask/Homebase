@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { allProducts } from "contentlayer/generated";
+import { allCompanies } from "contentlayer/generated";
 import { Mdx } from "@/app/components/mdx";
 import { Header } from "./header";
 import "./mdx.css";
@@ -15,7 +15,7 @@ type Props = {
 
 
 export async function generateStaticParams(): Promise<Props["params"][]> {
-  return allProducts
+  return allCompanies
     .filter((p) => p.published)
     .map((p) => ({
       slug: p.slug,
@@ -24,7 +24,7 @@ export async function generateStaticParams(): Promise<Props["params"][]> {
 
 export default async function PostPage({ params }: Props) {
   const slug = params?.slug;
-  const product = allProducts.find((product) => product.slug === slug);
+  const product = allCompanies.find((product) => product.slug === slug);
 
   if (!product) {
     notFound();
