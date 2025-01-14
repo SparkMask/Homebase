@@ -5,7 +5,7 @@ import Particles from "./components/particles";
 const navigation = [
   { name: "Our Products & Services", href: "/products" },
   { name: "Contact", href: "/contact" },
-  { name: "About Us", href: "/products/about-us" },
+  { name: "About Us", href: "/company/about-us" },
   { name: "Blog", href: "https://blog.sparkmask.com" },
 ];
 
