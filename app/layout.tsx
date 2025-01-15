@@ -6,15 +6,15 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "SparkMask",
+    default: "SparkMask Technologies",
     template: "%s | SparkMask",
   },
   description: "SparkMask the parent company of Blumemail and is looking towards expanding through more markets. Privacy is a priority to us.",
   openGraph: {
-    title: "SparkMask",
+    title: "SparkMask Technologies",
     description:
       "SparkMask the parent company of Blumemail and is looking towards expanding through more markets. Privacy is a priority to us.",
-    url: "https://sparkmask.com",
+    url: "https://www.sparkmask.com",
     siteName: "sparkmask.com",
     images: [
       {
