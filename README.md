@@ -104,7 +104,7 @@ This project is licensed under the GNU LGPL. See the [LICENSE](LICENSE) file for
 ## Contact
 For questions or feedback, please reach out to us:
 - Email: support@blumemail.net
-- Website: [www.blumemail.net](https://www.blumemail.net)
+- Website: [www.blumemail.net](https://blumemail.net)
 
 ---
 
