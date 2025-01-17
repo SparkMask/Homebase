@@ -6,7 +6,7 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "SparkMask Technologies",
+    default: "SparkMask Solutions",
     template: "%s | SparkMask",
   },
   description: "SparkMask the parent company of Blumemail and is looking towards expanding through more markets. Privacy is a priority to us.",
