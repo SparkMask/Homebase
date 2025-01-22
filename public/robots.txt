@@ -1,0 +1,5 @@
+# Robots.txt file for sparkmask.com
+
+User-Agent: *
+Allow: *
+Sitemap: https://www.sparkmask.com/sitemap.xml
