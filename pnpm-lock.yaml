@@ -18,8 +18,8 @@ importers:
   .:
     dependencies:
       '@next/font':
-        specifier: ^13.5.8
-        version: 13.5.8
+        specifier: ^14.2.15
+        version: 14.2.15(next@13.5.8(@opentelemetry/api@1.4.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@next/mdx':
         specifier: ^13.5.8
         version: 13.5.8
@@ -386,8 +386,10 @@ packages:
   '@next/env@13.5.8':
     resolution: {integrity: sha512-YmiG58BqyZ2FjrF2+5uZExL2BrLr8RTQzLXNDJ8pJr0O+rPlOeDPXp1p1/4OrR3avDidzZo3D8QO2cuDv1KCkw==}
 
-  '@next/font@13.5.8':
-    resolution: {integrity: sha512-ITORq3Sw95OWNxUxgLICXKmeKFh7K5d+w1v+vO4cOZz6i2taUer/77zVxTZExmk72bD9P5lahkgunjS8ej24DA==}
+  '@next/font@14.2.15':
+    resolution: {integrity: sha512-QopYhBmCDDrNDynbi+ZD1hDZXmQXVFo7TmAFp4DQgO/kogz1OLbQ92hPigJbj572eZ3GaaVxNIyYVn3/eAsehg==}
+    peerDependencies:
+      next: '*'
 
   '@next/mdx@13.5.8':
     resolution: {integrity: sha512-YTPEh2aqm2PDA8DL2u6wCfD+mk9hQe7ksmQD0dSsST3TPNgfB7CLwVdsTeOODP0zSqhMmcCGOIu3ie3yDm0f5A==}
@@ -2309,7 +2311,9 @@ snapshots:
 
   '@next/env@13.5.8': {}
 
-  '@next/font@13.5.8': {}
+  '@next/font@14.2.15(next@13.5.8(@opentelemetry/api@1.4.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
+    dependencies:
+      next: 13.5.8(@opentelemetry/api@1.4.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
   '@next/mdx@13.5.8':
     dependencies:
