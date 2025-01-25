@@ -1,112 +1,111 @@
-# Blumemail Homepage
+# 🚀 Shadcn/ui landing 
 
-Welcome to the official GitHub repository for Blumemail's homepage! This repository contains the source code for Blumemail's public-facing website. We invite contributions from the open-source community to enhance and maintain this project.
+A modern, fast, and user-friendly landing page built with cutting-edge frontend technologies. Perfect for developers who want to kickstart their projects with a solid foundation.
 
----
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="https://github.com/user-attachments/assets/c10a943f-efa8-4024-b0bb-5eca2402f52e" alt="Node.js" width="400">
+  <img src="https://github.com/user-attachments/assets/c79c7102-3968-4e04-9221-22560e0cabab" alt="JavaScript" width="400">
+</div>
 
-## Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running Locally](#running-locally)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+## 🌐 Live Demo
 
----
+Check out the live demo: [View Demo](https://nextjs-shadcn-landing.vercel.app)
 
-## About
-Blumemail's homepage serves as the primary gateway to our platform, providing information about our services, features, and company. This repository is dedicated to ensuring the homepage is performant, accessible, and visually appealing.
+[![Deploy with Vercel](https://vercel.com/button)](https://nextjs-shadcn-landing.vercel.app)
 
----
 
-## Features
-- Responsive design for seamless experience across devices
-- Dynamic content rendering
-- Easy navigation with clear CTAs (Call to Actions)
-- SEO-optimized structure
-- Accessible and inclusive design
+## ✨ Features
 
----
+- 📱 **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
+- 🎨 **Modern UI/UX** - Clean and intuitive interface with smooth animations
+- ⚡ **Lightning Fast** - Optimized for speed with Next.js
+- 🎯 **Type-Safe** - Built with TypeScript for better development experience
+- 🎨 **Beautiful Components** - Pre-built components from shadcn/ui
 
-## Tech Stack
-- **Frontend**: [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/)
-- **Backend**: [Node.js](https://nodejs.org/)
-- **Build Tools**: [Vite](https://vitejs.dev/)
-- **Deployment**: [Netlify](https://www.netlify.com/)
-
----
-
-## Getting Started
-
-### Prerequisites
-Ensure you have the following installed:
-- [Node.js](https://nodejs.org/) (version 16.x or later)
-- [Git](https://git-scm.com/)
-
-### Installation
+## 🛠️ Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/The-Blumemail-Group/Homebase.git
-   ```
+```bash
+git clone https://github.com/anibalalpizar/nextjs-shadcn-landing.git
+```
 
-2. Navigate to the project directory:
-   ```bash
-   cd Homebase
-   ```
+2. Install dependencies:
+```bash
+cd nextjs-shadcn-landing
+npm install
+```
 
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-### Running Locally
+## 🚀 Usage
 
 Start the development server:
 ```bash
 npm run dev
 ```
 
-The application will be available at `http://localhost:3000`.
+Build for production:
+```bash
+npm run build
+```
+
+## 💻 Code Examples
+
+### Component Usage
+```tsx
+import { Button } from "@/components/ui/button"
+import { Card } from "@/components/ui/card"
+
+function HeroSection() {
+  return (
+    <Card className="p-6">
+      <h1 className="text-3xl font-bold">Welcome to Our Landing Page</h1>
+      <p className="mt-2 text-gray-600">Start building something amazing!</p>
+      <Button className="mt-4">Get Started</Button>
+    </Card>
+  )
+}
+```
+
+## 🛠️ Tech Stack
+
+Our landing page is built with modern frontend technologies:
+
+- [![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/) - React framework for production
+- [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) - Type-safe JavaScript
+- [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) - Utility-first CSS framework
+- [![shadcn/ui](https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=react&logoColor=white)](https://ui.shadcn.com/) - Re-usable components
+
+## 📊 Project Structure
+
+```
+.
+├── src/
+│   ├── app/
+│   │   ├── fonts/           # Font configurations
+│   │   ├── sections/        # Page sections components
+│   │   │   ├── Faq.tsx
+│   │   │   └── Testimonials.tsx
+│   │   ├── layout.tsx       # Root layout
+│   ├── assets/              # Static assets
+│   ├── components/
+│   │   ├── ui/             # shadcn/ui components
+│   │   │   └── dropdown-menu.tsx
+│   │   └── theme-provider.tsx
+│   ├── lib/               # Utility functions
+│   └── types/             # TypeScript type definitions
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Contributing
-We welcome contributions to Blumemail's homepage! To get started:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add your message here"
-   ```
-4. Push your branch:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. Open a Pull Request and describe your changes.
-
-
----
-
-## License
-This project is licensed under the GNU LGPL. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Contact
-For questions or feedback, please reach out to us:
-- Email: support@blumemail.net
-- Website: [www.blumemail.net](https://blumemail.net)
-
----
-
-Thank you for contributing to Blumemail's homepage! Together, we can build an exceptional experience for our users.
-
+⭐️ If you found this project helpful, please give it a star!
