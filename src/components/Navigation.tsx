@@ -4,7 +4,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
-import { BookOpen, Briefcase, BriefcaseBusiness, Home, MessageSquareLock, Rss, User } from "lucide-react";
+import { BriefcaseBusiness, MessageSquareLock, Rss } from "lucide-react";
 import { ModeToggle } from "./ModeToggle";
 import Image from "next/image";
 import logo from '../public/SparkLogo.svg';

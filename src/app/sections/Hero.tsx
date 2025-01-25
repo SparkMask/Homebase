@@ -41,7 +41,7 @@ export function Hero({ id }: AnimatedProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
-          Leading what's next for the future of privacy.
+          Leading what&apos;s next for the future of privacy.
         </motion.p>
 
         <div className="flex items-center justify-center gap-4 relative">
