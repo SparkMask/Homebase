@@ -1,111 +1,93 @@
-# 🚀 Shadcn/ui landing 
+# Free React / Next.js landing page template
 
-A modern, fast, and user-friendly landing page built with cutting-edge frontend technologies. Perfect for developers who want to kickstart their projects with a solid foundation.
+![Open React / Next.js template preview](https://github.com/user-attachments/assets/522a5e46-2a0e-48ca-80eb-87c7fa58f3ea)
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/user-attachments/assets/c10a943f-efa8-4024-b0bb-5eca2402f52e" alt="Node.js" width="400">
-  <img src="https://github.com/user-attachments/assets/c79c7102-3968-4e04-9221-22560e0cabab" alt="JavaScript" width="400">
-</div>
+**Open** is a **free React / Next.js landing page template built with Tailwind CSS** for developers/makers who want to create a quick and professional landing page for their open source projects, SaaS products, online services, and more.
 
-## 🌐 Live Demo
+**UPDATE 2025-02-04** Added Tailwind v4 support!
 
-Check out the live demo: [View Demo](https://nextjs-shadcn-landing.vercel.app)
+Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://nextjs-shadcn-landing.vercel.app)
+Created and maintained with ❤️ by [Cruip.com](https://cruip.com).
 
+_Version 1.0.0 built with the Cruip CSS is available [here](https://github.com/cruip/open-react-template/releases/tag/1.0.0)._
+_Version 2.0.3 built with Tailwind CSS and React + Vite is available [here](https://github.com/cruip/open-react-template/releases/tag/2.0.3)._
+_Version 3.3.0 (before redesign) built with Tailwind CSS and Next.js is available [here](https://github.com/cruip/open-react-template/releases/tag/3.3.0)._
 
-## ✨ Features
+## Live demo
 
-- 📱 **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
-- 🎨 **Modern UI/UX** - Clean and intuitive interface with smooth animations
-- ⚡ **Lightning Fast** - Optimized for speed with Next.js
-- 🎯 **Type-Safe** - Built with TypeScript for better development experience
-- 🎨 **Beautiful Components** - Pre-built components from shadcn/ui
+Check the live demo here 👉️ [https://open.cruip.com/](https://open.cruip.com/)
 
-## 🛠️ Installation
+## Open PRO
 
-1. Clone the repository:
-```bash
-git clone https://github.com/anibalalpizar/nextjs-shadcn-landing.git
-```
+[![Open Pro](https://github.com/user-attachments/assets/2062c728-95f1-4d59-aa2d-d63556f625d5)](https://cruip.com/)
 
-2. Install dependencies:
-```bash
-cd nextjs-shadcn-landing
-npm install
-```
+## Design files
 
-## 🚀 Usage
+If you need the design files, you can download them from Figma's Community 👉 https://bit.ly/401KSUS
 
-Start the development server:
+## Usage
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+### Getting Started
+
+First, run the development server:
+
 ```bash
 npm run dev
+# or
+pnpm dev (recommended)
+# or
+yarn dev
 ```
 
-Build for production:
-```bash
-npm run build
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 💻 Code Examples
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### Component Usage
-```tsx
-import { Button } from "@/components/ui/button"
-import { Card } from "@/components/ui/card"
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-function HeroSection() {
-  return (
-    <Card className="p-6">
-      <h1 className="text-3xl font-bold">Welcome to Our Landing Page</h1>
-      <p className="mt-2 text-gray-600">Start building something amazing!</p>
-      <Button className="mt-4">Get Started</Button>
-    </Card>
-  )
-}
-```
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## 🛠️ Tech Stack
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Our landing page is built with modern frontend technologies:
+### Learn More
 
-- [![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/) - React framework for production
-- [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) - Type-safe JavaScript
-- [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) - Utility-first CSS framework
-- [![shadcn/ui](https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=react&logoColor=white)](https://ui.shadcn.com/) - Re-usable components
+To learn more about Next.js, take a look at the following resources:
 
-## 📊 Project Structure
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```
-.
-├── src/
-│   ├── app/
-│   │   ├── fonts/           # Font configurations
-│   │   ├── sections/        # Page sections components
-│   │   │   ├── Faq.tsx
-│   │   │   └── Testimonials.tsx
-│   │   ├── layout.tsx       # Root layout
-│   ├── assets/              # Static assets
-│   ├── components/
-│   │   ├── ui/             # shadcn/ui components
-│   │   │   └── dropdown-menu.tsx
-│   │   └── theme-provider.tsx
-│   ├── lib/               # Utility functions
-│   └── types/             # TypeScript type definitions
-```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## 🤝 Contributing
+### Deploy on Vercel
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 📝 License
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Support notes
 
----
+This template has been developed with the App Router (`app`) and React Server Components. If you’re unfamiliar with these beta features, you can find more information about them on the Next.js beta documentation page. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
 
-⭐️ If you found this project helpful, please give it a star!
+For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
+
+## Credits
+
+- [Nucleo](https://nucleoapp.com/)
+
+## Terms and License
+
+- Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
+- Copyright 2024 [Cruip](https://cruip.com/).
+- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
+- Attribution is not required, although it is really appreciated.
+
+## About Us
+
+We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
+
+## Stay in the loop
+
+If you would like to know when we release new resources, you can follow [@pacovitiello](https://x.com/pacovitiello) and [@DavidePacilio](https://x.com/DavidePacilio) on X, or you can subscribe to our [newsletter](https://cruip.com/newsletter/).
