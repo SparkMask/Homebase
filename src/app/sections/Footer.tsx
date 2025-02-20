@@ -2,7 +2,7 @@
 
 import type { SocialLinkProps } from "@/types";
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Linkedin, Mail } from "lucide-react";
+import { ExternalLink, Github, Linkedin, Mail, User } from "lucide-react";
 
 const socialLinks: SocialLinkProps[] = [
   {
@@ -18,6 +18,13 @@ const socialLinks: SocialLinkProps[] = [
     icon: Linkedin,
     lightColor: "hover:text-blue-600",
     darkColor: "dark:hover:text-blue-400",
+  },
+  {
+    name: "Mastodon",
+    href: "https://infosec.exchange/@sparkmask",
+    icon: User,
+    lightColor: "hover:text-blue-600",
+    darkColor: "dark:hover:text-blue-400"
   },
   {
     name: "GitHub",
