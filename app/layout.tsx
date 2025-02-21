@@ -1,8 +1,6 @@
 import "./css/style.css";
 
 import { Onest } from "next/font/google";
-import { GoogleAnalytics } from '@next/third-parties/google'
-
 import Header from "@/components/ui/header";
 
 const onest = Onest({
@@ -30,7 +28,6 @@ export default function RootLayout({
           {children}
         </div>
       </body>
-      <GoogleAnalytics gaId="G-5ZHJ8BPCC8" />
     </html>
   );
 }
